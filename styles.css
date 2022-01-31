@@ -1,0 +1,37 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+}
+
+.mainbody{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10%;
+}
+
+.Details{
+    justify-self: right;
+}
+
+.myphoto img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.navbar{
+    background-color:cornsilk;
+    display: flex;
+    justify-content: flex-end;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar a {
+    float: none;
+    color:lightslategrey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+  }
